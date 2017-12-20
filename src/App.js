@@ -1,10 +1,14 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import MyAwesomeReactComponent from './components/MyAwesomeReactComponent';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 const App = () => (
     <MuiThemeProvider>
-        <MyAwesomeReactComponent />
+        <Header />
+        <Main />
+        <Footer />
     </MuiThemeProvider>
 );
 
