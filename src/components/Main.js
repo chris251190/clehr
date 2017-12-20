@@ -38,14 +38,6 @@ export default class Main extends React.Component {
                     actAsExpander={true}
                     showExpandableButton={true}
                 />
-                <CardText>
-                    <Toggle
-                        toggled={this.state.expanded}
-                        onToggle={this.handleToggle}
-                        labelPosition="right"
-                        label="This toggle controls the expanded state of the component."
-                    />
-                </CardText>
                 <CardMedia
                     expandable={true}
                     overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
